@@ -1,0 +1,40 @@
+body{
+    background-color: aquamarine;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+.vertical-nav{
+min-width: 12rem;
+width: 12rem;
+height: 100vh;
+position: fixed;
+top: 0;
+left: 0;
+transition: all 0.4s;
+
+}
+.page-content{
+    width: calc(100%-12rem);
+    margin-left: 12rem;
+    transition: all 0.4s;
+}
+#sidebar.active {
+    margin-left: -12rem;
+
+}
+#content.active{
+    width: 100%;
+    margin: 0;
+
+}
+.seperator{
+    margin: 1rem 0;
+    border-bottom: 1px dashed red;
+}
+.text-uppercase{
+    letter-spacing: 0.1em;
+}
+.col-3{
+    border: 1px solid black;
+    
+}
